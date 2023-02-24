@@ -1,37 +1,41 @@
-## Welcome to GitHub Pages
+## Arduino-Gyroscope-LED-Control-Project
 
-You can use the [editor on GitHub](https://github.com/anantagrawal001/automatic-indicator/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+This project uses an Arduino microcontroller and a gyroscope sensor to control an LED light. When the gyroscope moves to the right, the LED light will glow, and when it moves to the left, the LED light will turn off.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Getting Started
 
-### Markdown
+To get started with this project, you will need the following components:
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+Arduino microcontroller
 
-# Header 1
-## Header 2
-### Header 3
+Gyroscope sensor
 
-- Bulleted
-- List
+LED light
 
-1. Numbered
-2. List
+Breadboard
 
-**Bold** and _Italic_ and `Code` text
+Jumper wires
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Once you have gathered all of the necessary components, you can start building your circuit. Connect the gyroscope sensor and LED light to the Arduino using the jumper wires and breadboard.
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/anantagrawal001/automatic-indicator/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Installing the Code
 
-### Support or Contact
+Next, you will need to install the code on your Arduino microcontroller. The code for this project is available in the code.ino file. Open the Arduino IDE and upload the code to your microcontroller.
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+
+Testing the Project
+
+With the code uploaded to the microcontroller, you can now test the project. Move the gyroscope to the right, and the LED light should glow. Move the gyroscope to the left, and the LED light should turn off.
+
+
+Contributing
+
+If you want to contribute to this project, feel free to fork the repository and submit a pull request. We welcome contributions from the community and appreciate your help in improving the project.
+
+
+License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
